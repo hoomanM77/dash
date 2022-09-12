@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Materialize project 3</title>
+    <link href="images/materializecss-svgrepo-com.svg" rel="icon">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="welcome to my first website">
+    <meta name="keyword" content="HTML,CSS,PHP,developer">
+
+
+<!--    /////// font awesome-->
+    <script src="https://kit.fontawesome.com/04f2094a89.js" crossorigin="anonymous"></script>
+<!--        ////// materialize icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--    ///////// materialize min css-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+<!--            //////// materialize rtl-->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/mohamadlounnas/materialize-rtl-support@master/dist/css/materialize.rtl.min.css" />
+<!--        ////// my styles-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" media="screen and (max-width:1200px)" rel="stylesheet">
+</head>
+<body >
+
+
+<nav class="cyan darken-4">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo left">Hooman.ir</a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li class="active"><a href="index.html">داشبورد</a></li>
+                <li><a href="posts.html">پست</a></li>
+                <li><a href="categories.html">دسته بندی</a></li>
+                <li><a href="comments.html">کامنت</a></li>
+                <li><a href="users.html">کاربران</a></li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+        <div class="background">
+            <img alt="" src="images/abstract2.jpg">
+        </div>
+        <a href=""><img alt="" class="circle" src="images/avatar_svg/boy-1.svg"></a>
+        <a href=""><span class="white-text name">هومن موسوی</span></a>
+        <a href=""><span class="white-text email">hoomanmousavi77@gmail.com</span></a>
+    </div></li>
+    <li><a href="index.html"><i class="material-icons">dashboard</i>داشبورد</a></li>
+    <li><a href="posts.html">پست</a></li>
+    <li><a href="categories.html">دسته بندی</a></li>
+    <li><a href="comments.html">کامنت</a></li>
+    <li><a href="users.html">کاربران</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">تنظیمات</a></li>
+    <li><a class="waves-effect" href="login.html">خروج</a></li>
+</ul>
+
+<section class="section center report">
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card-panel cyan darken-3">
+                    <i class="material-icons white-text">face</i>
+                    <h5 class="white-text ">فروش ماهیانه</h5>
+                    <h2 class="white-text count">32658</h2>
+                    <div class="progress cyan darken-4">
+                        <div class="determinate white" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel white black-text">
+                    <i class="material-icons ">favorite_border</i>
+                    <h5 class=" ">کامنت</h5>
+                    <h2 class=" count">360</h2>
+                    <div class="progress grey lighten-1">
+                        <div class="determinate cyan darken-4 " style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel cyan darken-3">
+                    <i class="material-icons white-text">find_in_page</i>
+                    <h5 class="white-text ">کاربران</h5>
+                    <h2 class="white-text count">5600</h2>
+                    <div class="progress cyan darken-4">
+                        <div class="determinate white" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel white black-text">
+                    <i class="material-icons ">format_shapes</i>
+                    <h5 class=" ">پست ها</h5>
+                    <h2 class=" count">270 </h2>
+                    <div class="progress grey lighten-1">
+                        <div class="determinate cyan darken-4 " style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="section cyan darken-3">
+    <div class="row">
+        <div class="col s12 m6 l8">
+
+            <ul class="collapsible">
+                <li class="active">
+                    <div class="collapsible-header"><i class="material-icons">cloud</i>لورم ایپسوم</div>
+                    <div class="collapsible-body white"><span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">place</i>لورم ایپسوم</div>
+                    <div class="collapsible-body  white"><span>لورم ایپسوم متن ساختگی با تولیدلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">whatshot</i>لورم ایپسوم</div>
+                    <div class="collapsible-body white"><span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</span></div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="col s12 m6 l4">
+
+            <ul class="collection with-header">
+                <li class="collection-header "><h5>کامنت های اخیر</h5></li>
+                <li class="collection-item avatar">
+                    <img src="images/avatar_svg/boy.svg" alt="" class="circle">
+                    <span class="title">هومن موسوی</span>
+                    <p class="truncate">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </p>
+                    <a class="approve green-text" href="#">تایید</a>|
+                    <a class="deny red-text" href="#">حذف</a>
+
+                </li>
+                <li class="collection-item avatar">
+                    <img src="images/avatar_svg/girl-1.svg" alt="" class="circle">
+                    <span class="title">هومن موسوی</span>
+                    <p class="truncate">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </p>
+                    <a class="approve green-text" href="#">تایید</a>|
+                    <a class="deny red-text" href="#">حذف</a>
+
+                </li>
+                <li class="collection-item avatar">
+                    <img src="images/avatar_svg/girl.svg" alt="" class="circle">
+                    <span class="title">هومن موسوی</span>
+                    <p class="truncate">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </p>
+                    <a class="approve green-text" href="#">تایید</a>|
+                    <a class="deny red-text" href="#">حذف</a>
+
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+</section>
+
+<section class="section">
+    <div class="row">
+        <div class="col s12 m6 l8">
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title">پست های اخیر</span>
+                    <table class="striped">
+                        <thead>
+                        <tr>
+                            <th>عنوان</th>
+                            <th>دسته بندی</th>
+                        </tr>
+
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>پست اول</td>
+                            <td>لورم ایپسوم</td>
+                            <td><a href="#" class="btn cyan darken-4">جزییات</a></td>
+                        </tr>
+                        <tr>
+                            <td>پست دوم</td>
+                            <td>لورم ایپسوم</td>
+                            <td><a href="#" class="btn cyan darken-4">جزییات</a></td>
+                        </tr>
+                        <tr>
+                            <td>پست سوم</td>
+                            <td>لورم ایپسوم</td>
+                            <td><a href="#" class="btn cyan darken-4">جزییات</a></td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title">ایجاد تسک</span>
+                    <div class="input-field">
+                        <input type="text" placeholder="افزودن تسک...">
+                    </div>
+
+                    <ul class="collection with-header">
+                        <li class="collection-item"><div>تست یک<a href="#" class="secondary-content"><i class="material-icons">close</i></a></div></li>
+                        <li class="collection-item"><div>تسک دو<a href="#" class="secondary-content"><i class="material-icons">close</i></a></div></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="section cyan darken-4 center white-text">
+        <h5>Hooman.ir &copy; 2022</h5>
+</footer>
+
+
+
+
+
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+        <i class="large material-icons">add</i>
+    </a>
+    <ul>
+        <li><a class="btn-floating red modal-trigger" href="#modal1"><i class="material-icons">mode_edit</i></a></li>
+        <li><a class="btn-floating yellow darken-1 modal-trigger" href="#modal2"><i class="material-icons">folder</i></a></li>
+        <li><a class="btn-floating green modal-trigger" href="#modal3"><i class="material-icons" >supervisor_account</i></a></li>
+    </ul>
+</div>
+
+
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>افزودن پست</h4>
+        <form>
+            <div class="input-field">
+                <input type="text" name="" id="title" placeholder="عنوان">
+            </div>
+            <div class="input-field">
+                <select >
+                    <option value="" disabled selected>انتخاب دسته</option>
+                    <option value="1">دسته اول</option>
+                    <option value="2">دسته دوم</option>
+                    <option value="3">دسته سوم</option>
+                    <option value="3">دسته چهارم</option>
+                </select>
+            </div>
+            <div class="input-field" >
+                <textarea rows="3" name="body" id="body" class="materialize-textarea"></textarea>
+                <label for="body">Body</label>
+            </div>
+
+        </form>
+
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn left modal-close modal-action cyan darken-3 white-text">ارسال</a>
+    </div>
+</div>
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <h4>افزودن دسته</h4>
+        <form>
+            <div class="input-field">
+                <input type="text" name="" id="title2" placeholder="عنوان">
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn left modal-close modal-action cyan darken-3 white-text">ارسال</a>
+    </div>
+</div>
+
+
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <h4>افزودن کاربر</h4>
+        <form action="">
+            <div class="input-field">
+                <input id="name" type="text">
+                <label for="name">نام</label>
+            </div>
+            <div class="input-field">
+                <input id="email" type="text">
+                <label for="name">ایمیل</label>
+            </div>
+            <div class="input-field">
+                <input id="password" type="text">
+                <label for="name">پسورد</label>
+            </div>
+            <div class="input-field">
+                <input id="password-confirm" type="text">
+                <label for="name">تایید پسورد</label>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn left modal-close modal-action cyan darken-3 white-text">ارسال</a>
+    </div>
+</div>
+
+
+
+<!--//////// jquery-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!--//////// materialize min js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--    /////// ckeditor-->
+<script src="https://cdn.ckeditor.com/4.19.1/standard/ckeditor.js"></script>
+<!--/////// my script-->
+<script src="javascript/App.js"></script>
+</body>
+</html>
